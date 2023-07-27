@@ -10,13 +10,12 @@ class Ninja{
     }
     showStats() {
         console.log (`Nombre: ${this.nombre}`);
-        console.log (`Fuerza: ${this.fuerza}`);     
+        console.log (`Salud: ${this.salud}`);     
         console.log (`Velocidad: ${this.velocidad}`);  
-        console.log (`Salud: ${this.salud}`);                                                   
+        console.log (`Fuerza: ${this.fuerza}`); 
     }
     drinkSake() {
         this.salud += 10;
-        console.log (this.salud);
     }
 }
 module.exports = Ninja;
